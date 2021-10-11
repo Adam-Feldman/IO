@@ -1,0 +1,60 @@
+<!--Adam Feldman-->
+
+<!DOCTYPE html>
+<html lang="en">
+<!--link to the css file-->
+<link rel="stylesheet" href="loginStyle.css" type="text/css">
+
+
+<head>
+    <!--link to the javascript-->
+    <script src="codelogin.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--this is what is displayed on the browser-->
+    <title>UAT Space Login</title>
+</head>
+
+<body>
+    
+    <!--The words at the top of the screen in yellow-->
+    <h1 style="text-align: center; font-size: 48px;">
+        Mission Control Login
+       
+    </h1>
+    <br> <br> <br> <br>
+
+
+    <p style="font-size: 42px
+    ;text-align: center; color: black;; " id="loginStatus" class="loginID">Status of login...</p>
+    <br><br>
+
+<!--This si the form to fill out and the submit button that will redirect to the tables html if the form is correct-->
+    <form id="credSubmit" onsubmit="return false" ; style="text-align: center; font-size: 32px;">
+        First Name: <input type="text" id="firstName" >
+        <br>
+        Last Name: <input type="text" id="lastName">
+        <br>
+        Badge number: <input type="number" id="badgeNumber">
+
+        <br><br>
+        <!--link to the javascript-->
+        <input style="font-size: 48px
+        " type="submit" onclick=" checkCreds()" />
+        <br>
+
+
+    </form>
+
+    <br><br><br><br><br><br><br>
+
+
+    <center>
+
+        <img width="1000" height="600" src="images/space.jpg" alt="">
+    </center>
+</body>
+
+</html>

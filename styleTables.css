@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(74, 122, 145);
+    background-image: linear-gradient(90deg, rgb(178, 229, 231), #4062a0);
+}
+.funWithButtons {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 12px;
+    border-color: rgb(12, 22, 26);
+}
+
+.crapsWithButtons {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 12px;
+    border-color: rebeccapurple;
+}
+section::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
